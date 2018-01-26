@@ -1,0 +1,284 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #eeeef3 !important;
+}
+#yunhai-page {
+    background-color: #eeeef3 ;
+
+}
+.container::after {
+    clear: both;
+}
+.container::after, .container::before {
+    content: " ";
+    display: table;
+}
+.container::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1180px;
+
+}
+.content {
+    display: inline-block;
+    margin: 60px auto;
+    padding: 45px;
+    position: relative;
+    width: 80%;
+}
+
+.page .content {
+    float: left;
+
+    width: 100%;
+    margin:60px auto;
+}
+
+.search-box .search {
+    border: 2px solid #049df6;
+}
+
+
+.search-box .search button, .search-box .search button:active, .search-box .search button:focus {
+    background-color: #049df6;
+    border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+    color: #fff;
+    display: block;
+    float: right;
+    font-size: 18px;
+    height: 45px;
+    width: 160px;
+}
+
+.btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+.search-box .search .form-group {
+    margin-bottom: 0;
+    margin-right: 160px;
+}
+.search-box .search .form-group .form-control {
+    font-size: 18px;
+    height: 45px;
+}
+.form-control {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+
+button, input, optgroup, select, textarea {
+
+    margin: 0;
+}
+
+.search-box .tags {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.search-box .tags a {
+    color: #000;
+    margin-right: 18px;
+}
+a {
+    cursor: pointer;
+
+    text-decoration: none;
+    background-color: transparent;
+}
+/*ddd*/
+.btn-group-vertical > .btn-group::after, .btn-group-vertical > .btn-group::before, .btn-toolbar::after, .btn-toolbar::before, .clearfix::after, .clearfix::before, .dl-horizontal dd::after, .dl-horizontal dd::before, .form-horizontal .form-group::after, .form-horizontal .form-group::before, .modal-footer::after, .modal-footer::before, .nav::after, .nav::before, .navbar-collapse::after, .navbar-collapse::before, .navbar-header::after, .navbar-header::before, .navbar::after, .navbar::before, .pager::after, .pager::before {
+    content: " ";
+    display: table;
+}
+
+.btn-group-vertical > .btn-group::after, .btn-toolbar::after, .clearfix::after, .dl-horizontal dd::after, .form-horizontal .form-group::after, .modal-footer::after, .nav::after, .navbar-collapse::after, .navbar-header::after, .navbar::after, .pager::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.btn-group-vertical > .btn-group::after, .btn-toolbar::after, .clearfix::after, .dl-horizontal dd::after, .form-horizontal .form-group::after, .modal-footer::after, .nav::after, .navbar-collapse::after, .navbar-header::after, .navbar::after, .pager::after {
+    clear: both;
+}
+.btn-group-vertical > .btn-group::after, .btn-group-vertical > .btn-group::before, .btn-toolbar::after, .btn-toolbar::before, .clearfix::after, .clearfix::before, .dl-horizontal dd::after, .dl-horizontal dd::before, .form-horizontal .form-group::after, .form-horizontal .form-group::before, .modal-footer::after, .modal-footer::before, .nav::after, .nav::before, .navbar-collapse::after, .navbar-collapse::before, .navbar-header::after, .navbar-header::before, .navbar::after, .navbar::before, .pager::after, .pager::before {
+    content: " ";
+    display: table;
+}
+
+.btn-group-vertical > .btn-group, .btn-toolbar, .clearfix, .dl-horizontal dd, .form-horizontal .form-group, .modal-footer, .nav, .navbar, .navbar-collapse, .navbar-header, .pager {
+}
+/**/
+.job-rampage-item:first-child {
+    border-top: 1px solid #049df6;
+}
+.job-rampage-item {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 20px 20px 25px;
+    position: relative;
+}
+
+.job-rampage-item h3 {
+    font-size: 18px;
+    margin-right: 300px;
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.h3, h3 {
+    font-size: 24px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.job-rampage-item .tags {
+    color: #999;
+    font-size: 16px;
+}
+.job-rampage-item .tags > span {
+    margin-right: 20px;
+}
+
+.job-rampage-item .tags .salary {
+    color: #049df6;
+    font-size: 20px;
+}
+
+.job-rampage-item .publisher {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.job-rampage-item .publisher .avatar {
+    display: block;
+    float: right;
+    height: 60px;
+    width: 60px;
+}
+
+.job-rampage-item .publisher .avatar img {
+    height: 100%;
+    width: 100%;
+}
+.img-circle {
+    border-radius: 50%;
+}
+img {
+    vertical-align: middle;
+     border: 0 none;
+}
+.job-rampage-item .publisher > p {
+    color: #b9c0c6;
+    float: right;
+    font-size: 16px;
+    line-height: 60px;
+    margin-right: 20px;
+}
+
+
+.pagination a {
+  background: none;
+  border: none !important;
+  color: gray !important;
+}
+.pagination a:hover, .pagination a:focus, .pagination a:active {
+  background: none !important;
+}
+.pagination > li > a {
+  margin: 0 2px;
+  font-size: 18px;
+  padding: 0 !important;
+  background: none;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  -ms-border-radius: 50% !important;
+  -o-border-radius: 50% !important;
+  border-radius: 50% !important;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.pagination > li > a:hover {
+  color: #000;
+  background: #e6e6e6 !important;
+}
+.pagination > li.disabled > a {
+  background: none;
+}
+.pagination > li.active > a {
+  background: #118DF0 !important;
+  -webkit-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
+  -ms-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
+  color: #fff !important;
+}
+.pagination > li.active > a:hover {
+  cursor: pointer;
+  background: #41a4f3 !important;
+}

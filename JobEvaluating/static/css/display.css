@@ -1,0 +1,21 @@
+#display-container{
+    padding:110px;
+    width: 1080px;
+    margin:0 auto;
+}
+#display-sel{
+    float:right;
+    width:200px;
+    padding-bottom: 10px;
+}
+.clean-both{
+	clear:both;
+	height: 0;
+	line-height: 0;
+	font-size: 0
+}
+
+.display-pic{
+    height:500px;
+    width:800px;
+}

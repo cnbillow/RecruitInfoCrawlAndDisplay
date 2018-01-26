@@ -1,0 +1,314 @@
+::-webkit-selection {
+  color: #fff;
+  background: #118DF0;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #118DF0;
+}
+
+::selection {
+  color: #fff;
+  background: #118DF0;
+}
+
+.btn {
+  margin-right: 4px;
+  margin-bottom: 4px;
+  font-family: "Varela Round", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  padding: 4px 20px;
+}
+.btn.btn-md {
+  padding: 4px 20px !important;
+}
+.btn.btn-lg {
+  padding: 18px 36px !important;
+}
+.btn:hover, .btn:active, .btn:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+.copyrights{
+	text-indent:-9999px;
+	height:0;
+	line-height:0;
+	font-size:0;
+	overflow:hidden;
+}
+.btn-primary {
+  background: #118DF0;
+  color: #fff;
+  border: 2px solid #118DF0;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background: #2998f2 !important;
+  border-color: #2998f2 !important;
+}
+.btn-primary.btn-outline {
+  background: transparent;
+  color: #118DF0;
+  border: 2px solid #118DF0;
+}
+.btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
+  background: #118DF0;
+  color: #fff;
+}
+
+#yunhai-hero {
+  min-height: 700px;
+}
+#yunhai-hero .flexslider {
+  border: none;
+  z-index: 1;
+  margin-bottom: 0;
+}
+#yunhai-hero .flexslider .slides {
+  position: relative;
+  overflow: hidden;
+}
+#yunhai-hero .flexslider .slides li {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  min-height: 700px;
+}
+#yunhai-hero .flexslider .flex-control-nav {
+  bottom: 40px;
+  z-index: 1000;
+}
+#yunhai-hero .flexslider .flex-control-nav li a {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: none;
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+#yunhai-hero .flexslider .flex-control-nav li a.flex-active {
+  cursor: pointer;
+  background: #fff;
+}
+#yunhai-hero .flexslider .flex-direction-nav {
+  display: none;
+}
+#yunhai-hero .flexslider .yunhai-property-brief {
+  display: table;
+  opacity: 0;
+  min-height: 700px;
+  width: 100%;
+}
+#yunhai-hero .flexslider .yunhai-property-brief .yunhai-property-brief-inner {
+  display: table-cell;
+  vertical-align: middle;
+  min-height: 700px;
+  width: 100%;
+}
+#yunhai-hero .flexslider .yunhai-property-brief .yunhai-property-brief-inner .yunhai-box {
+  width: 40%;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  color: #fff;
+  position: relative;
+  text-align: left;
+  -webkit-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
+  -ms-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 768px) {
+  #yunhai-hero .flexslider .yunhai-property-brief .yunhai-property-brief-inner .yunhai-box {
+    width: 100%;
+  }
+}
+#yunhai-hero .flexslider .yunhai-property-brief .yunhai-property-brief-inner .yunhai-box .yunhai-property-specification {
+  padding: 10px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.09);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+#yunhai-hero .flexslider .yunhai-property-brief .yunhai-property-brief-inner .yunhai-box .yunhai-property-specification strong {
+  color: #4CB648;
+}
+#yunhai-hero .flexslider .yunhai-property-brief .yunhai-property-brief-inner .yunhai-box .yunhai-property-specification > span {
+  margin-right: 10px;
+}
+#yunhai-hero .flexslider .yunhai-property-brief .yunhai-property-brief-inner .yunhai-box h3 {
+  margin-bottom: 10px;
+}
+#yunhai-hero .flexslider .yunhai-property-brief .yunhai-property-brief-inner .yunhai-box h3 a {
+  color: #000;
+}
+#yunhai-hero .flexslider .yunhai-property-brief .yunhai-property-brief-inner .yunhai-box h3 a:hover {
+  text-decoration: none;
+}
+#yunhai-hero .flexslider .yunhai-property-brief .yunhai-property-brief-inner .yunhai-box p {
+  color: #96a0ae;
+}
+#yunhai-hero .flexslider .yunhai-property-brief .yunhai-property-brief-inner .yunhai-box p:last-child {
+  margin-bottom: 0;
+}
+#yunhai-hero .flexslider .yunhai-property-brief .yunhai-property-brief-inner .yunhai-box .price-status {
+  margin-bottom: 20px;
+}
+#yunhai-hero .flexslider .yunhai-property-brief .yunhai-property-brief-inner .yunhai-box .price-status .price {
+  font-size: 28px;
+  color: #4CB648;
+  margin-bottom: 10px;
+  position: relative;
+}
+#yunhai-hero .flexslider .yunhai-property-brief .yunhai-property-brief-inner .yunhai-box .price-status .price .per {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+#yunhai-hero .flexslider .yunhai-property-brief .yunhai-property-brief-inner .yunhai-box .price-status .price .tag {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  top: -6px;
+  font-size: 14px;
+  margin-left: 20px;
+  background: #4CB648;
+  color: #fff;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 20px 0 20px;
+  position: relative;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+#yunhai-hero .flexslider .yunhai-property-brief .yunhai-property-brief-inner .yunhai-box .price-status .price .tag:after, #yunhai-hero .flexslider .yunhai-property-brief .yunhai-property-brief-inner .yunhai-box .price-status .price .tag:before {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+#yunhai-hero .flexslider .yunhai-property-brief .yunhai-property-brief-inner .yunhai-box .price-status .price .tag:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-right-color: #4CB648;
+  border-width: 13px;
+  margin-top: -13px;
+}
+#yunhai-hero .flexslider .yunhai-property-brief .yunhai-property-brief-inner .yunhai-box .price-status .price .tag:hover, #yunhai-hero .flexslider .yunhai-property-brief .yunhai-property-brief-inner .yunhai-box .price-status .price .tag:active, #yunhai-hero .flexslider .yunhai-property-brief .yunhai-property-brief-inner .yunhai-box .price-status .price .tag:focus {
+  text-decoration: none;
+}
+
+.bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.yunhai-page-title {
+  padding: 10em 0 5em 0 !important;
+}
+@media screen and (max-width: 768px) {
+  .yunhai-page-title {
+    padding: 6em 0 1em 0 !important;
+  }
+}
+.yunhai-page-title h1 {
+  font-size: 40px;
+  line-height: 1.5;
+  color: #fff;
+  margin: 0;
+}
+.yunhai-page-title h1 .colored {
+  color: #4CB648;
+}
+
+#yunhai-piece {
+  padding: 7em 0;
+  position: relative;
+  clear: both;
+  background: #f7f7f7;
+}
+@media screen and (max-width: 768px) {
+  #yunhai-piece {
+    padding: 3em 0;
+  }
+}
+#yunhai-piece .yunhai-entry {
+  margin-bottom: 30px;
+  float: left;
+}
+#yunhai-piece .yunhai-entry figure {
+  margin-bottom: 0px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+#yunhai-piece .yunhai-entry figure img {
+  max-width: 100%;
+}
+#yunhai-piece .yunhai-entry .yunhai-date {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #b3b3b3;
+}
+#yunhai-piece .yunhai-entry .yunhai-copy {
+  padding: 30px;
+  background: #fff;
+}
+#yunhai-piece .yunhai-entry h3 {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  color: #118DF0;
+}
+#yunhai-piece .yunhai-entry p {
+  color: #999999;
+}
+#yunhai-piece .yunhai-entry p:last-child {
+  margin-bottom: 0;
+}
+#yunhai-piece .yunhai-entry:hover {
+  -webkit-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
+  -ms-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
+}
+#yunhai-piece .yunhai-entry:hover figure {
+  opacity: .7;
+}
+#yunhai-piece .yunhai-entry:hover, #yunhai-piece .yunhai-entry:active, #yunhai-piece .yunhai-entry:focus {
+  text-decoration: none !important;
+}
+#yunhai-piece .yunhai-entry:hover p, #yunhai-piece .yunhai-entry:hover figure, #yunhai-piece .yunhai-entry:hover h3, #yunhai-piece .yunhai-entry:hover span, #yunhai-piece .yunhai-entry:active p, #yunhai-piece .yunhai-entry:active figure, #yunhai-piece .yunhai-entry:active h3, #yunhai-piece .yunhai-entry:active span, #yunhai-piece .yunhai-entry:focus p, #yunhai-piece .yunhai-entry:focus figure, #yunhai-piece .yunhai-entry:focus h3, #yunhai-piece .yunhai-entry:focus span {
+  text-decoration: none !important;
+}
+
+
+.yunhai-heading {
+  margin-bottom: 30px;
+}
+.yunhai-heading h2 {
+  margin-bottom: 10px;
+}
+.yunhai-heading p {
+  font-size: 18px;
+}
+.yunhai-heading.white {
+  color: #fff;
+}
+.yunhai-heading.white h2, .yunhai-heading.white p {
+  color: #fff;
+}
+
+

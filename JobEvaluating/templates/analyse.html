@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+
+<html class="no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>基于Web爬虫的IT行业需求信息分析系统团队</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="../static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../static/css/analyse.css">
+	<link rel="stylesheet" href="../static/css/basic.css">
+	<link rel="stylesheet" href="../static/css/index.css">
+	<script src="../static/js/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+<script>
+    {% if heat_lan %}
+         var heat_lan = {{ heat_lan | safe }};
+    {% endif %}
+    {% if title %}
+         var title = {{ title | safe }};
+    {% endif %}
+
+    {% if best_city %}
+         var best_city = "{{ best_city | safe }}";
+    {% endif %}
+    {% if analyse %}
+         var analyse = "{{ analyse | safe }}";
+    {% endif %}
+</script>
+<div id="yunhai-page">
+	<header id="yunhai-header" role="banner">
+		<div class="container">
+			<div class="row">
+				<div class="header-inner">
+					<h1><a href="index.html">基于Web爬虫的IT行业需求信息分析系统</a></h1>
+					<nav role="navigation">
+						<ul>
+							<li ><a href="/index/">首页</a></li>
+							<li><a href="/display/">展示</a></li>
+							<li><a href="/search/">搜索</a></li>
+							<li class="cta"><a href="/analyse/">分析</a></li>
+							<li  ><a href="/about/">关于</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="page jobs">
+		<div class="container">
+			<div class="content">
+				<div class="search-box">
+					<form actioin="/analyse/" type="POST">
+                        <div  class="search">
+							<button  style="margin:0px;padding:0px;"class="btn btn-default" type="submit">搜索</button>
+                            <div class="form-group">
+                                <input name="search"  required="required" class="form-control" placeholder="请输入关键字..."type="text">
+                            </div>
+                        </div>
+                        <div class="checkbox">
+                          <label style="margin-left:20px;">
+                            <input type="checkbox" name="beijing" value="1">北京
+                          </label>
+                            <label style="margin-left:20px;">
+                            <input type="checkbox" name="shanghai" value="1">上海
+                          </label>
+                          <label style="margin-left:20px;">
+                            <input type="checkbox" name="guangzhou" value="1">广州
+                          </label>
+                          <label style="margin-left:20px;">
+                            <input type="checkbox" name="hangzhou" value="1">杭州
+                          </label>
+                           <label style="margin-left:20px;">
+                            <input type="checkbox" name="wuhan" value="1">武汉
+                          </label>
+						  <label style="margin-left:20px;">
+                            <input type="checkbox" name="jinan" value="1">济南
+                          </label>
+						  <label style="margin-left:20px;">
+                            <input type="checkbox" name="shenzheng" value="1">深圳
+                          </label>
+						  <label style="margin-left:20px;">
+                            <input type="checkbox" name="nanjing" value="1">南京
+                          </label>
+						  <label style="margin-left:20px;">
+                            <input type="checkbox" name="hefei" value="1">合肥
+                          </label>
+						  <label style="margin-left:20px;">
+                            <input type="checkbox" name="changsha" value="1">长沙
+                          </label>
+						  <label style="margin-left:20px;">
+                            <input type="checkbox" name="guiyang" value="1">贵阳
+                          </label>
+						  <label style="margin-left:20px;">
+                            <input type="checkbox" name="xian" value="1">西安
+                          </label>
+                        </div>
+                    </form>
+				</div>
+		    </div>
+	    </div>
+    </div>
+    <div id="best-deal" >
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center yunhai-heading animate-box" data-animate-effect="fadeIn">
+					<h2>职位分析报告</h2>
+					<p>输入你想要了解的职位名称并勾选你想要了解的城市，如Java开发工程师，武汉等。 如果不勾选的话默认选中北京、上海、广州和深圳。 </p>
+				</div>
+				<div class="col-md-12 item-block animate-box" data-animate-effect="fadeIn">
+					<div class="yunhai-property">
+						<figure>
+                             <div id="display" style="height:700px; width:100%; margin:0 auto;"></div>
+						</figure>
+						<div class="yunhai-property-innter">
+							<h3><a href="#" id="analy-title"></a></h3>
+							<div class="price-status">
+		                 	<span class="price">{{ best_city }}<span class="per">/需求最大的城市</span></span>
+		               </div>
+		               <p>{{ analyse }}</p>
+	            	</div>
+	            	<p class="yunhai-property-specification">
+	            	</p>
+					</div>
+				</div>
+            </div>
+        </div>
+    </div>
+
+
+	<footer id="yunhai-footer" role="contentinfo">
+		<div class="container">
+			<div class="col-md-12 yunhai-copyright text-center">
+				<p>&copy; 2018 Cary Xiang All Rights Reserved. <span>Designed with</span> <i class="icon-heart"></i> by <a href="#/" target="_blank">Cary Xiang</a> </p>
+			</div>
+
+		</div>
+	</footer>
+	</div>
+
+<script>
+    document.getElementById('analy-title').innerHTML = title;
+</script>
+<script src="../static/js/jquery.min.js"></script>
+<script src="../static/js/bootstrap.min.js"></script>
+<script src="../static/js/jquery.waypoints.min.js"></script>
+<script src="../static/js/jquery.flexslider-min.js"></script>
+<script src="../static/js/common.js"></script>
+<script src="../static/js/echarts.js"></script>
+<script src="../static/js/china.js"></script>
+<script src="../static/js/echarts-wordcloud.min.js"></script>
+<script src="../static/js/pic-all.js"></script>
+<script src="../static/js/setDataToAll.js"></script>
+</body>
+</html>
+

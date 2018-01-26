@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+
+<html class="no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>基于Web爬虫的IT行业需求信息分析系统团队</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="../static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../static/css/basic.css">
+	<link rel="stylesheet" href="../static/css/index.css">
+	<link rel="stylesheet" href="../static/css/search.css">
+	<script src="../static/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+
+<div id="yunhai-page">
+	<header id="yunhai-header" role="banner">
+		<div class="container">
+			<div class="row">
+				<div class="header-inner">
+					<h1><a href="index.html">基于Web爬虫的IT行业需求信息分析系统</a></h1>
+					<nav role="navigation">
+						<ul>
+							<li ><a href="/index/">首页</a></li>
+							<li><a href="/display/">展示</a></li>
+							<li class="cta"><a href="/search/">搜索</a></li>
+							<li><a href="/analyse/">分析</a></li>
+							<li  ><a href="/about/">关于</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="page jobs">
+		<div class="container">
+			<div class="content">
+				<div class="search-box">
+					<form class="search"  type="GET" action="/search/">
+						<button class="btn btn-default" style="margin:0px;padding:0px;" type="submit" >搜索</button>
+						<div class="form-group">
+							<input name="search" required="required" class="form-control" placeholder="请输入关键字..." type="text">
+						</div>
+					</form>
+                    <div class="tags">
+						    <span>热门搜索：</span>
+                            <a class=" active" href="#">iOS</a>
+                            <a class="" href="#">Android</a>
+                            <a class="" href="#">PHP</a>
+                            <a class="" href="#">Web前端</a>
+                            <a class="" href="#">产品经理</a>
+                            <a class="" href="#">运营</a>
+                            <a class="" href="#">视觉设计</a>
+					</div>
+				</div>
+				<div class="clearfix">
+					 {% for note in result %}
+                       <div class="job-rampage-item" >
+						<h3 >
+							<a href=  {{ note.url }} target="_blank" >{{ note.job }}</a>
+						</h3>
+						<div class="tags">
+							<span>相关信息</span>
+							<span class="salary">
+								<span> {{ note.salary }}</span>
+							</span>
+							<span>{{ note.working_place }}</span>
+							<span>
+								<span>发布时间</span>
+								<span>/</span>
+								<span>{{ note.datetime }}</span>
+							</span>
+						</div>
+						<div class="publisher">
+							<a class="avatar" href="/index/" target="_blank">
+								<img class="img-circle" src="../static/images/logo.png">
+							</a>
+								<p >基于Web爬虫的IT行业需求信息分析系统</p>
+						</div>
+					</div>
+                  {% endfor %}
+
+                </div>
+            <div class="row">
+				<div class="col-md-12 text-center animate-box" data-animate-effect="fadeIn">
+					<nav>
+					  <ul class="pagination">
+					    <li class="disabled">
+                           {% if result.has_previous %}
+                                <a class='paginator'  aria-label="Previous" title='上一页' href='?page={{ result.previous_page_number }}'><span aria-hidden="true">&lt;&lt;</span></a>
+                           {% endif %}
+					    </li>
+                     {% for page in result.paginator.page_range %}
+                        {% if page == result.number %}
+                             <li class="active"><a class='paginator_current' title='当前页:{{ page }}'><span>{{ page }}</span></a></li>
+                        {% else %}
+                             <li><a class='paginator' href='?page={{ page }}' title='{{ page }}'><span>{{ page }}</span></a></li>
+                        {% endif %}
+                    {% endfor %}
+					{% if result.has_next %}
+                         <li><a class='paginator'  aria-label="Next" title='下一页' href='?page={{ result.next_page_number }}'><span aria-hidden="true">&gt;&gt;</span></a></li>
+                    {% endif %}
+					  </ul>
+					</nav>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+
+
+	<footer id="yunhai-footer" role="contentinfo">
+		<div class="container">
+			<div class="col-md-12 yunhai-copyright text-center">
+				<p>&copy; 2018 Cary Xiang All Rights Reserved. <span>Designed with</span> <i class="icon-heart"></i> by <a href="#/" target="_blank">Cary Xiang</a> </p>
+			</div>
+
+		</div>
+	</footer>
+</div>
+
+<script src="../static/js/jquery.min.js"></script>
+<script src="../static/js/bootstrap.min.js"></script>
+<script src="../static/js/jquery.waypoints.min.js"></script>
+<script src="../static/js/jquery.flexslider-min.js"></script>
+</body>
+</html>
+

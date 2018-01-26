@@ -1,0 +1,289 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Varela Round", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #7f7f7f;
+  background: #fff;
+  height: 100%;
+  position: relative;
+}
+
+a {
+  color: #118DF0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+a:hover, a:active, a:focus {
+  color: #118DF0;
+  outline: none;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+h1, h2, h3, h4, h5, h6, figure {
+  color: #000;
+  font-family: "Varela Round", Arial, sans-serif;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+}
+
+
+
+#yunhai-header {
+  position: absolute;
+  z-index: 1001;
+  width: 100%;
+  margin: 0px 0 0 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 768px) {
+  #yunhai-header {
+    margin: 0px 0 0 0;
+  }
+}
+#yunhai-header .header-inner {
+  height: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: left;
+  width: 100%;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  border-radius: 7px;
+}
+#yunhai-header h1 {
+  float: left;
+  padding: 0;
+  font-weight: 700;
+  line-height: 0;
+  font-size: 30px;
+}
+#yunhai-header h1 a {
+  color: white;
+}
+#yunhai-header h1 a > span {
+  color: #118DF0;
+}
+#yunhai-header h1 a:hover, #yunhai-header h1 a:active, #yunhai-header h1 a:focus {
+  text-decoration: none;
+  outline: none;
+}
+#yunhai-header h1, #yunhai-header nav {
+  margin: 38px 0 0 0;
+}
+#yunhai-header nav {
+  float: right;
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  #yunhai-header nav {
+    display: none;
+  }
+}
+#yunhai-header nav ul {
+  padding: 0;
+  margin: 0 -0px 0 0;
+  line-height: 0;
+}
+#yunhai-header nav ul li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: rgba(255, 255, 255, 0.7);
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+#yunhai-header nav ul li.call {
+  margin-left: 20px;
+}
+@media screen and (max-width: 992px) {
+  #yunhai-header nav ul li.call {
+    margin-left: 0px;
+  }
+}
+#yunhai-header nav ul li.call a:hover:after {
+  display: none !important;
+}
+#yunhai-header nav ul li a {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 18px;
+  padding: 10px;
+  position: relative;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+#yunhai-header nav ul li a i {
+  line-height: 0;
+  font-size: 20px;
+  position: relative;
+  top: 3px;
+}
+#yunhai-header nav ul li a:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  bottom: 7px;
+  left: 10px;
+  right: 10px;
+  background-color: #fff;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -o-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -moz-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -ms-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -o-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+#yunhai-header nav ul li a:hover {
+  text-decoration: none;
+  color: white;
+}
+#yunhai-header nav ul li a:hover:after {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  -moz-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  -o-transform: scaleX(1);
+  transform: scaleX(1);
+}
+#yunhai-header nav ul li a:active, #yunhai-header nav ul li a:focus {
+  outline: none;
+  text-decoration: none;
+}
+#yunhai-header nav ul li.cta {
+  margin-left: 20px;
+}
+@media screen and (max-width: 992px) {
+  #yunhai-header nav ul li.cta {
+    margin-left: 0px;
+  }
+}
+#yunhai-header nav ul li.cta a {
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+}
+#yunhai-header nav ul li.cta a:hover {
+  background: #fff;
+  color: #118DF0;
+}
+#yunhai-header nav ul li.cta a:hover:after {
+  display: none;
+}
+#yunhai-header nav ul li.active a {
+  text-decoration: none;
+  color: white;
+}
+#yunhai-header nav ul li.active a:after {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  -moz-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  -o-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+#yunhai-footer {
+  padding: 7em 0;
+  float: left;
+  width: 100%;
+  position: relative;
+  background: #333333;
+}
+@media screen and (max-width: 768px) {
+  #yunhai-footer {
+    padding: 3em 0;
+  }
+}
+#yunhai-footer h2, #yunhai-footer h3, #yunhai-footer h4 {
+  color: #fff;
+}
+#yunhai-footer h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: bold;
+}
+#yunhai-footer [class*="col"] {
+  padding-bottom: 30px;
+}
+#yunhai-footer .btn {
+  color: #fff;
+}
+#yunhai-footer .float {
+  float: left;
+  margin-right: 10%;
+}
+#yunhai-footer ul {
+  padding: 0;
+  margin: 0;
+}
+#yunhai-footer ul li {
+  padding: 0;
+  margin: 0 0 10px 0;
+  list-style: none;
+}
+#yunhai-footer ul li a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none !important;
+}
+#yunhai-footer ul li a:hover {
+  color: #fff;
+}
+
+#yunhai-page {
+  position: relative;
+  z-index: 2;
+  background: #fff;
+}
+
+#yunhai-page {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#yunhai-page {
+  position: relative;
+}
+
+#yunhai-page {
+  z-index: 2;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.offcanvas-visible #yunhai-page {
+  -moz-transform: translateX(-275px);
+  -webkit-transform: translateX(-275px);
+  -ms-transform: translateX(-275px);
+  -o-transform: translateX(-275px);
+  transform: translateX(-275px);
+}

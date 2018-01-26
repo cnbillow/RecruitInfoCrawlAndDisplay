@@ -1,0 +1,185 @@
+﻿武汉 20 d
+东莞 20 d
+广州 20 d
+上海 20 d
+福州 20 d
+惠州 20 d
+北京 20 d
+深圳 20 d
+上海 20 d
+天津 10 d
+重庆 10 d
+石家庄 10 d
+沈阳 10 d
+哈尔滨 10 d
+杭州 20 d
+福州 10 d
+济南 10 d
+成都  10 d
+昆明 10 d
+兰州 10 d
+南宁 10 d
+银川 10 d
+长春 10 d
+南京 20 d
+合肥 10 d
+南昌 10 d
+郑州 10 d
+长沙 10 d
+海口 10 d
+贵阳 10 d
+西安 10 d
+呼和浩特 10 d
+拉萨 10 d
+乌鲁木齐 10 d
+
+
+经验 z
+数据库 z
+架构 z
+电商 z
+态度认真 z
+负责任 z
+责任心 z
+执行力 z
+吃苦耐劳 z
+网络工程师 z
+团队 z
+团队合作 z
+团队协作 z
+Linux z
+linux z
+Windowsserver z
+windowsserver z
+IP z
+TCP z
+Java z
+java z
+C语言 z
+c语言 z
+Python z
+python z
+编程能力 z
+网络安全 z
+应变 z
+事业进取心 z
+管理能力 z
+沟通 z
+协调 z
+压力 z
+应届毕业生 z
+中专 z
+大专 z
+本科 z
+研究生 z
+博士 z
+四级 z
+六级 z
+PHP z
+php z
+Android z
+android z
+IOS z
+ios z
+数据挖掘 z
+测试 z
+前端开发 z
+html z
+Html z
+技术总监 z
+架构师 z
+CTO z
+UI z
+交互设计 z
+平面设计 z
+视觉设计 z
+市场 z
+NET z
+VB z
+Delphi z
+delphi z
+Perl z
+perl z
+Ruby z
+ruby z
+Hadoop z
+hadoop z
+自然语言处理 z
+go z
+Go z
+R z
+Asp z
+asp z
+后端开发 z
+精准推荐 z
+搜索算法 z
+wp z
+WP z
+后端开发 z
+数据仓库 z
+MySQL z
+SQLServer z
+Oracle z
+MongoDB z
+ETL z
+Hive z
+数据仓库 z
+DBA z
+硬件 z
+嵌入式 z
+自动化 z
+单片机 z
+电路设计 z
+驱动开发 z
+系统集成 z
+FPGA z
+DSP z
+ARM z
+PCB z
+模具设计 z
+热传导 z
+材料工程师 z
+精益工程师 z
+射频工程师 z
+硬件开发 z
+产品经理 z
+网页产品经理 z
+移动产品经理 z
+产品助理 z
+数据产品经理 z
+电商产品经理 z
+游戏策划 z
+产品实习生 z
+web前端 z
+Flash z
+JavaScript z
+测试工程师 z
+自动化测试 z
+功能测试 z
+性能测试 z
+测试开发 z
+游戏测试 z
+白盒测试 z
+灰盒测试 z
+黑盒测试 z
+手机测试 z
+硬件测试 z
+测试经理 z
+测试 z
+运维工程师 z
+运维开发工程师 z
+网络工程师 z
+系统工程师 z
+IDC z
+CDN z
+系统管理员 z
+病毒分析 z
+安全 z
+网络安全 z
+系统安全 z
+运维经理 z
+运维 z
+大数据 z
+云计算 z
+物联网 z
+移动互联网 z
