@@ -54,7 +54,7 @@
   + **celery -A JobEvaluating worker --loglevel=INFO**
   + **celery -A JobEvaluating beat -s celerybeat-schedule**
 + 同步数据库
-  + **python manage.py makemigrations**
+  + **python manage.py makemigrations**<br>
   + **python manage.py migrate**
 + 启动Django(python manage.py runserver)
 ![](https://github.com/CaryXiang/Information-Analysis-system-of-IT-Industry-requirement-based-on-Web-crawler/blob/master/imgs/index.png)
