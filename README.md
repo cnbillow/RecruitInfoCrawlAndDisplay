@@ -21,7 +21,7 @@
 
 
 ## 项目架构图
-
+![](https://github.com/CaryXiang/Information-Analysis-system-of-IT-Industry-requirement-based-on-Web-crawler/blob/master/imgs/frame.png)
 ## 部署方式
 ### 1. 安装所需要的库
 + bs4
@@ -53,8 +53,17 @@
 + 启动定时任务
   + **celery -A JobEvaluating worker --loglevel=INFO**
   + **celery -A JobEvaluating beat -s celerybeat-schedule**
-+ 启动Django
-
++ 同步数据库
+  > python manage.py makemigrations
+  > python manage.py migrate
++ 启动Django(python manage.py runserver)
 ![](https://github.com/CaryXiang/Information-Analysis-system-of-IT-Industry-requirement-based-on-Web-crawler/blob/master/imgs/index.png)
 ![](https://github.com/CaryXiang/Information-Analysis-system-of-IT-Industry-requirement-based-on-Web-crawler/blob/master/imgs/index1.png)
 ![](https://github.com/CaryXiang/Information-Analysis-system-of-IT-Industry-requirement-based-on-Web-crawler/blob/master/imgs/index2.png)
+![](https://github.com/CaryXiang/Information-Analysis-system-of-IT-Industry-requirement-based-on-Web-crawler/blob/master/imgs/display.png)
+![](https://github.com/CaryXiang/Information-Analysis-system-of-IT-Industry-requirement-based-on-Web-crawler/blob/master/imgs/search.png)
+![](https://github.com/CaryXiang/Information-Analysis-system-of-IT-Industry-requirement-based-on-Web-crawler/blob/master/imgs/analyse.png)
+![](https://github.com/CaryXiang/Information-Analysis-system-of-IT-Industry-requirement-based-on-Web-crawler/blob/master/imgs/asks.png)
+![](https://github.com/CaryXiang/Information-Analysis-system-of-IT-Industry-requirement-based-on-Web-crawler/blob/master/imgs/job_hot.png)
+![](https://github.com/CaryXiang/Information-Analysis-system-of-IT-Industry-requirement-based-on-Web-crawler/blob/master/imgs/lan.png)
+![](https://github.com/CaryXiang/Information-Analysis-system-of-IT-Industry-requirement-based-on-Web-crawler/blob/master/imgs/salary.png)
